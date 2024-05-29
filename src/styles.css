@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'RioGrande';
+    src: url('./RioGrande.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+
+img {
+    padding-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+h1 {
+    font-family: 'RioGrande';
+    font-size: 50px;
+    color: #fff;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 1px;
+}
+
+button {
+  background-color: #decba3;  
+  cursor: pointer;  
+  border: none;
+  color: #24252B;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+#mainContainer {
+    height: 100vh;
+    width: 100%;
+    background: rgb(22,20,23);
+    background: linear-gradient(178deg, rgba(22,20,23,1) 20%, rgba(22,20,23,1) 20%, transparent);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: "RioGrande";
+    color: #decba3;
+    font-size: 45px;
+}
+
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+li {
+    list-style: none;
+    margin-left: 100px;
+}
+
+h4 {
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 380px;
+    width: 50%;
+    padding-bottom: 30px;
+}
